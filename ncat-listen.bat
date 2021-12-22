@@ -1,0 +1,1 @@
+ncat -k -vv -c "echo ---CONNECTION [%NCAT_REMOTE_PORT%]--- 1>&2" -l 8888
